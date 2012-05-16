@@ -11,6 +11,9 @@ public class GestureTestActivity extends Activity implements GestureDetector.OnG
 
 	GestureDetector gestureDetector;
 
+
+	//たくさんのコメントを追加！
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,9 +29,6 @@ public class GestureTestActivity extends Activity implements GestureDetector.OnG
 
 		switch(event.getAction()){
 		case MotionEvent.ACTION_DOWN:
-
-			//Toast.makeText(this, "down", Toast.LENGTH_SHORT).show();
-
 
 		}
 
